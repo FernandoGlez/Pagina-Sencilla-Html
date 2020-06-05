@@ -1,0 +1,192 @@
+body  {
+  margin: 10px;
+  padding: 0;
+  background: #fff;
+  font-family: arial, helvetica, sans-serif;
+  }
+ 
+/*  Maquetación de la página (sin formulario)  */
+ 
+#contenedor {
+  width: 900px;
+  margin: 0 auto;
+  background: gray;
+  }
+ 
+#cabecera {
+  background: #fff;
+  border: solid 1px #444;
+    background: gray;
+  }
+ 
+#cabecera h1  {
+  margin: 0;
+  line-height: 90px;
+  text-align: center;
+    background: gray;
+  }
+ 
+#principal  {
+  background: #f4f4f4;
+  display: table;
+    background: gray;
+  }
+ 
+#izquierda  {
+  width: 200px;
+  padding: 10px;
+  display: table-cell;
+  background: #fff;
+  border: solid 1px #444;
+  border-top: 0;
+  border-right: 0;
+    background: gray;
+  }
+ 
+#izquierda ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    background: gray;
+  }
+ 
+#izquierda ul li  {
+  line-height: 25px;
+    background: gray;
+  }
+ 
+#izquierda ul li a  {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  border: solid 1px #000;
+  margin: 2px 0;
+    background: gray;
+  }
+ 
+#izquierda ul li a:hover  {
+  color: #bbb;
+  border-color: #bbb;
+    background: gray;
+  }
+ 
+#central  {
+  padding: 10px;
+  background: #fff;
+  border: solid 1px #444;
+  border-top: 0;
+  display: table-cell;
+  width: 660px;
+    background: gray;
+  }
+ 
+#pie  {
+  background: #000;
+    background: gray;
+  }
+ 
+#pie p  {
+  margin: 0;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+    background: gray;
+  }
+ 
+#pie p a  {
+  color: #99f;
+    background: gray;
+  }
+ 
+#pie p a:hover  {
+  color: #9f9;
+    background: gray;
+  }
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+/*  Maquetación y otros estilos del formulario  */
+ 
+.formulario p{
+width: 400px;
+margin: 0;
+padding: 8px 0;
+padding-left: 255px; /*Distancia a la cual comienza la etiqueta*/
+border-top: 1px solid #ddd;
+}
+ 
+.formulario label{
+font-weight: bold;
+float: left;
+text-align: right;
+margin-left: -255px; /*Ancho de la columna*/
+width: 240px; /*Ancho de la etiqueta. Para que se genere un margen derecho, esta medida debe ser menor que el margen izquierdo.*/
+}
+ 
+.formulario input[type="text"]{ /*ancho de las cajas de texto*/
+width: 250px;
+}
+ 
+.formulario textarea{
+width: 250px;
+height: 150px;
+font: normal 14px arial, helvetica, sans-serif;
+}
+ 
+#botones  {
+  margin-left: 255px;
+  }  
+
+#carrusel{float:left; width:601px; overflow:hidden; height:205px; position:relative; margin-top:20px;}
+#carrusel .izquierda_flecha{position:absolute; left:10px; z-index:1; top:50%; margin-top:-9px;}
+#carrusel .derecha_flecha{position:absolute; right:10px; z-index:1; top:50%; margin-top:-9px;}
+.carrusel{width:4000px;left:0px; position:absolute; z-index:0}
+.carrusel>div{
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+.carrusel .img_carrusel{cursor:pointer;}
+
+#content {
+    float:left;
+    width:600px;
+    margin-bottom:40px;
+    margin:0px auto;
+}
+
+.product {
+    border:#CCCCCC 1px solid;
+}
